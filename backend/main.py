@@ -8,6 +8,9 @@ from datetime import datetime
 from .database import chats_collection as chat_collection, chat_helper, delete_chat
 
 app = FastAPI()
+@app.get("/api/hello")
+def hello():
+    return {"message": "Hello from FastAPI"}
 
 # CORS
 origins = [
