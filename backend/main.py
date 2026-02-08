@@ -9,6 +9,7 @@ from .database import chats_collection as chat_collection, chat_helper, delete_c
 
 app = FastAPI()
 
+
 # CORS
 origins = [
     "http://localhost:3000",
