@@ -50,6 +50,7 @@ body {
   height: 100%;
   overflow-y: auto;
   position: relative;
+  min-width: 0;
 }
 
 /* =========================================
@@ -68,6 +69,7 @@ body {
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.02);
   z-index: 20;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 .sidebar-header {
