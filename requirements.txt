@@ -8,3 +8,5 @@ pymongo
 python-multipart
 joblib
 motor
+streamlit
+requests
