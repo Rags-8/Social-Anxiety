@@ -10,3 +10,5 @@ joblib
 motor
 streamlit
 requests
+matplotlib
+seaborn
